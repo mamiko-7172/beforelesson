@@ -1,0 +1,35 @@
+/*div要素の中のp要素のみにCSSをあてる*/
+div p{
+    color: green;
+    font-size: 30px;
+    padding: 10px;
+    margin: 50px;
+    border: 1px solid;    
+}
+#practice6{
+    background-color: grey;
+}
+.practice7{
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+}
+
+.list{
+    color: blue;
+}
+
+* {color: purple;} /*全称セレクタ*/
+p {color: red;} /*タイプセレクタ*/
+.abc {color: orange;} /*要素を特定しないclassセレクタ*/
+p.abc {color: yellow;} /*要素を特定したclassセレクタ*/
+#xyz {color: green;} /*要素を特定しないidセレクタ*/
+p#xyz {color: blue;} /*要素を特定したidセレクタ*/
+
+#practice9{
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid red;
+    background-color: blue;
+}

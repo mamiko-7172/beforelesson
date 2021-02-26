@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>sample</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>練習問題１：ボディ</h1>
+    <p>はじめてのHTML</p>
+    <div>
+        <h1>練習問題２：ブロック要素</h1>
+        <p>ここは段落なのでブロック要素です。</p>
+        ここで改行されます。
+      </div>
+    <div>
+        <h1>練習問題３：インライン要素</h1>
+        <p>文章のうち、<strong>この部分</strong>が強調されます。</p>
+      </div>  
+      <div id="main">
+        <h1>練習問題４：id属性とclass属性</h1>
+        <div class="section">
+          <p>ひとつめの段落です。class属性に1つの名前が割り当てられています。</p>
+        </div>
+      
+        <div class="section row">
+          <p>ふたつめの段落です。class属性に複数の名前が割り当てられています。</p>
+        </div>
+      </div>
+      <div>
+        <h1>練習問題５：style属性</h1>
+        <p>この文章のうち、<span style="font-size: 20px; color: red;">この部分</span>をspanタグで囲みます。</p>
+      </div>
+      <div class="section">
+        <h1>練習問題６：divタグ、spanタグ</h1>
+        <p>ここは段落です。<span style="color: red;">ここはspanタグで囲まれています。</span>ここは段落です。</p>
+      </div>
+      <div>
+        <h1>練習問題７：見出し</h1>
+        <h2>見出し２</h2>
+        <h3>見出し３</h3>
+        <h4>見出し４</h4>
+        <h5>見出し５</h5>
+        <h6>見出し６</h6>
+      </div>
+        <div>
+            <h1>練習問題８：行と段落</h1>
+            <p>ここは段落です。<br>ここで改行します。</p>
+            <pre>
+              ここは
+              そのまま
+              表示されます。
+            </pre>
+          </div>
+    <div>
+        <h1>練習問題９：リスト</h1>
+        <p>エンジニア留学が掲げる最高の学習に必要な３つの柱</p>
+        <ul>
+            <li>カリキュラム</li>
+            <li>講師</li>
+            <li>生徒自身のモチベーション</li>
+        </ul>
+        <p>Basicコースは次のように進めます</p>
+        <ol>
+            <li>Webの仕組み</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>テンプレート</li>
+            <li>サーバ環境構築</li>
+            <li>PHP基礎</li>
+            <li>データベース基礎</li>
+            <li>応用課題</li>
+          </ol>
+        </div>  
+        <div>
+            <h1>練習問題１０：テーブル</h1>
+            <table border="1">
+              <caption>表題</caption>
+              <thead>
+                <tr>
+                  <th>ヘッダ１</th>
+                  <th>ヘッダ２</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>１ー１</td>
+                  <td>２ー１</td>
+                </tr>
+                <tr>
+                  <td>１ー２</td>
+                  <td>２ー２</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        
+        <div>
+            <h1>練習問題１０：テーブル</h1>
+            <table border="1">
+              <caption>表題</caption>
+              <thead>
+                <tr>
+                  <th>ヘッダ１</th>
+                  <th>ヘッダ２</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="2">１ー１</td>
+                  <td>２ー１</td>
+                </tr>
+                <tr>
+                  <!-- <td>１ー２</td> -->
+                  <td>２ー２</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h1>練習問題１０：テーブル</h1>
+            <table border="1">
+              <caption>表題</caption>
+              <thead>
+                <tr>
+                  <th>ヘッダ１</th>
+                  <th>ヘッダ２</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2">１ー１</td>
+                  <!-- <td>２ー１</td> -->
+                </tr>
+                <tr>
+                  <td>１ー２</td>
+                  <td>２ー２</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>  
+          <div>
+            <h1>練習問題１１：リンク</h1>
+            <a href="http://nexseed.net" target="_blank">NexSeed</a>
+          </div> 
+          <div>
+            <h1>練習問題１２：ページ内のリンク</h1>
+            <a href="#link1">練習問題２へ</a>
+          </div>
+          <!-- 練習問題２のdivタグに、id属性を追加します -->
+<div id="link1">
+  <h1>練習問題２：ブロック要素</h1>
+  <p>ここは段落なのでブロック要素です。</p>
+  ここで改行されます。
+</div>
+<div>
+  <h1>練習問題１３：画像</h1>
+  <img src="http://nexseed.net/images/logo.jpg" alt="NexSeedロゴ">
+</div>
+<div>
+  <h1>練習問題１４：フォーム</h1>
+  <form action="" method="post">
+    <div>
+      <!-- テキストボックス -->
+      メール：<input type="text" name="email" value=""><br>
+      <!-- パスワード用のテキストボックス -->
+      パスワード：<input type="password" name="password" value=""><br>
+    </div>
+
+    <div>
+      <!-- セレクトボックス -->
+      <select name="list">
+        <option value="item1">アイテム１</option>
+        <option value="item2" selected>アイテム２</option>
+        <option value="item3">アイテム３</option>
+      </select>
+    </div>
+
+    <div>
+      <!-- チェックボックス -->
+      <input type="checkbox" name="fruit" value="apple"> りんご
+      <input type="checkbox" name="fruit" value="orange" checked=""> みかん
+    </div>
+
+    <div>
+      <!-- ラジオボックス -->
+      <input type="radio" name="region" value="kanto">関東
+      <input type="radio" name="region" value="tokai">東海
+      <input type="radio" name="region" value="tyubu">中部
+      <input type="radio" name="region" value="tyugoku" checked>中国
+      <input type="radio" name="region" value="kyusyu">九州
+    </div>
+    <!-- フォームデータ送信ボタン -->
+    <input type="submit" value="送信">
+  </form>
+</div>
+<div>
+  <h1>練習問題１５：スクリプト</h1>
+  <script type="text/javascript">
+    function sayHello() {
+      alert('Hello!');
+    }
+  </script>
+  <input type="button" onclick="sayHello();" value="Hello">
+</div>
+  </body>
+</html>
+
